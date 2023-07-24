@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: capitalize;
+}
+.container{
+    width: 100vw;
+    /* display: grid; */
+}
+/* 
+
+call
+
+*/
+.call{
+    padding: 5px 20px;
+    background-color: black;
+    height: 30px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.calll #emoji{
+    color: orange;
+}
+#emoji{
+    margin: 0 9px 0 9px;
+
+}
+/* 
+
+
+jia
+
+*/
+
+.jialogo{
+    background-color: skyblue;
+    display: flex;
+    padding: 10px;
+}
+figure img{
+    width: 200px;
+}
+.follow{
+    flex-basis: 90%;
+    text-align: center;
+}
+.follow > span{
+    font-weight: bold;
+}
+.social{
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: bolder;
+}
+/* 
+
+
+nav
+
+*/
+
+.nav{
+    color: #fff;
+    display: grid;
+    place-content: center;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(7,1fr);
+    background-color: rgba(40, 99, 177, 0.884);
+}
+.nav span{
+    padding: 7px ;
+}
+.nav span:first-child{
+    background-color: red;    /* border: 0 ; */
+}
+.nav span:hover{
+    background-color: black;
+}
